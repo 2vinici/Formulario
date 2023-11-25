@@ -1,0 +1,50 @@
+<doctype html>
+    <html>
+        <head>
+            <title>Formulário</title>
+       <link rel="stylesheet" href="/storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/treino html.com.css.com/formulário.css">     
+        </head>
+        <body>
+            <div id="div">
+            <h1>Seja bem vindo ao meu site</h1>
+            <h3>Antes de você continuar preencha este formulário </h3>
+           
+           <div>
+            <form>
+                <label for="username">Nome do usuário:</label><br>
+                <input type="text" id="username" name="username">
+            </form>
+            
+            <form>
+                <label for="senha">Senha do usuário:</label><br>
+                <input type="passport" id="senha" name="senha">
+                </form>
+                
+                <form>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email">
+                </form>
+                
+                <form>
+                <label for="idade">Idade:</label><br>
+                <input type="number" id="idade" name="idade" min="0" max="150">
+                </form>
+                
+                <form>
+                <label for="Aceita">Aceito todos os termos:</label>
+                <input type="checkbox" id="aceita" name="Aceita" value="aceita">
+                </form>
+                
+                <form>
+                <label for="masculino">Masculino:</label>
+                <input type="radio" id="masculino" name="gênero" value="masculino">
+               
+                <label for="feminin">Fermino:</label>
+                <input type="radio" id="Fermino" name="gênero" value="fermino"><br>
+                <Button>Enviar</Button>
+                </form>
+                <h3>Muito obrigado 🫂</h3>
+           </div>
+           </div>     
+        </body>
+    </html>
